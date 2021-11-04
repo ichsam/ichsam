@@ -1,0 +1,249 @@
+img {
+    border-radius: 30%;
+}
+
+#fullname-header{
+    color: white;
+    float: right;
+    margin-left: 20px;
+}
+
+body{
+    min-width: 1500px;
+}
+
+ul{ list-style-type: none; }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+  }
+  nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    transition: .3s;
+    z-index: 5;
+    opacity: 1;
+  }
+  nav.black{
+    background: rgba(0,0,0,.8);
+    height: 80px;
+    padding: 10px 50px;
+  }
+  nav .logo{
+    float: left;
+  }
+  nav .logo img{
+    height: 80px;
+    transition: .5s;
+  }
+  nav.black .logo img{
+    height: 60px;
+  }
+  nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li{
+    list-style: none;
+    margin-top: 25px;
+    line-height: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+  }
+  /* nav ul li a{
+    line-height: none;
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    text-shadow: 0 0 10px #000;
+  } */
+  
+  /* nav.black ul li a{
+    color: #fff;
+    line-height: 20px;
+  } */
+  nav.black ul li{
+    color: #fff;
+    line-height: 20px;
+  }
+  /* nav ul li a.active,
+  nav ul li a:hover{
+    color: orange;
+  } */
+  nav ul li.active,
+  nav ul li:hover{
+    color: orange;
+  }
+  
+  .parallax1 {
+    background: url("https://thumbs.gfycat.com/VariableKnobbyAmphiuma-size_restricted.gif");
+    min-height: 100%;
+    filter: contrast(200%);
+  }
+  .parallax2 {
+    background: url("https://media.giphy.com/media/sRFEa8lbeC7zbcIZZR/giphy.gif");
+    min-height: 60%;
+  }
+  .parallax3 {
+    background:url("https://i.pinimg.com/originals/bc/ea/c8/bceac8633ddcfada2291229ec1c6fcc7.gif");
+    min-height: 40%;
+  }
+  .parallax4 {
+    background:url("https://i.pinimg.com/originals/bc/ea/c8/bceac8633ddcfada2291229ec1c6fcc7.gif");
+    min-height: 60%;
+  }
+  .parallax5 {
+    background:url("https://media0.giphy.com/media/Qgx8fFTysBHYQ/source.gif");
+    min-height: 50%;
+  }
+  .parallax6 {
+    background:url("https://media0.giphy.com/media/Qgx8fFTysBHYQ/source.gif");
+    min-height: 100%;
+  }
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .heading {
+    position: absolute;
+    color: #fff;
+    font-size: 300%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow:0 0 10px #000;
+  }
+  .heading2 {
+    position: absolute;
+    color: #fff;
+    font-size: 150%;
+    top: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+  }
+  .heading-sm {
+    position: absolute; 
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+  }
+  .two-col{
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: center;
+  }
+  section {
+    overflow: auto;
+    padding: 50px 80px;
+  }
+  .dark{
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #323232;
+    color: #f2f2f2;
+  }
+  @media (max-width: 900px){
+    nav ul li{
+      font-size: 12px;
+    }
+    .heading{
+      font-size: 250%;
+    }
+  }
+  @media (max-width: 600px){
+    .heading{
+      font-size: 250%;
+    }
+    .heading-sm{
+      font-size: 180%
+    }
+    .two-col {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li{
+      font-size: 8px;
+    }
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* skill bar */
+ 
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+  margin: 0 auto;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.webdev {width: 20%; background-color: blue;} 
+.python {width: 70%; background-color: blue;} 
+.network {width: 60%; background-color: blue;} 
+.adobe {width: 50%; background-color: blue;} 
